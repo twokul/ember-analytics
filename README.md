@@ -1,6 +1,16 @@
 # Ember-analytics
 
-This README outlines the details of collaborating on this Ember addon.
+### NewRelic
+
+Adds `NewRelic` analytics on the page. Requires the parent project to have `.newrelic` JSON file
+under the root in the follwing format:
+
+```json
+{
+  "licenseKey": "key",
+  "applicationId": "id"
+}
+```
 
 ## Installation
 
