@@ -8,7 +8,7 @@ module.exports = {
 
   contentFor: function(type, config) {
     if (config.environment !== 'test' && type === 'head') {
-      return readConfig(this.name);
+      return readConfig(this.name, config.newRelic);
     }
 
     return '';
